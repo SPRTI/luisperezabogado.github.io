@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Pérez Alvarado Abogado – Confianza Legal a tu Alcance</title>
+    
+    <!-- Favicon with your logo -->
+    <link rel="icon" href="https://storage.googleapis.com/gemini-prod-us-west1-409956509619-assets/56f7345f-178b-4b11-bd38-7690184439c3" type="image/png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Montserrat & Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Applying custom fonts from Google Fonts */
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #111827; /* Dark background for contrast */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Custom colors for Tailwind */
+        .bg-brand-blue { background-color: #1D3557; }
+        .text-brand-gold { color: #D4AF37; }
+        .border-brand-gold { border-color: #D4AF37; }
+        .bg-brand-gray { background-color: #F1F1F1; }
+        
+        /* Animation classes for scroll reveal */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+            html, body {
+        overflow-x: hidden;
+    }
+    </style>
+</head>
+<body class="text-gray-800">
+<!-- HEADER & HERO SECTION -->
+<header class="bg-slate-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="container mx-auto px-6 py-4 relative z-10">
+        <!-- Navigation -->
+        <nav class="flex items-center justify-between w-full">
+            <!-- NOMBRE + LOGO juntos -->
+            <div class="flex items-center space-x-3">
+                <div class="flex flex-col justify-center h-16">
+                    <span class="text-2xl md:text-3xl font-extrabold text-white self-center" style="margin-top: 2px;">
+                        Luis Pérez Alvarado <span class="text-brand-gold">Abogado</span>
+                    </span>
+                </div>
+                <img src="logo2.png" alt="Isotipo Logo Luis Pérez Abogado" class="h-16 w-auto md:h-14 md:static absolute right-4 top-4 md:relative md:right-0 md:top-0 z-20 md:ml-0 ml-auto md:order-none order-2 self-center md:self-auto">
+            </div>
+            <!-- NAVEGACIÓN (solo visible en desktop) -->
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#sobre-mi" class="hover:text-brand-gold transition-colors duration-300">Sobre mí</a>
+                <a href="#servicios" class="hover:text-brand-gold transition-colors duration-300">Servicios</a>
+                <a href="#testimonios" class="hover:text-brand-gold transition-colors duration-300">Testimonios</a>
+                <a href="#contacto" class="bg-brand-gold text-slate-900 font-bold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105">Contactar</a>
+            </div>
+        </nav>
+    </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 flex flex-col md:flex-row items-center container mx-auto px-6 py-24 md:py-32">
+            <div class="md:w-1/2 text-center md:text-left reveal">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+                    Confianza Legal <br>a tu <span class="text-brand-gold">Alcance</span>
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                    Más de 10 años de experiencia ofreciendo soluciones legales personalizadas en Costa Rica.
+                </p>
+                <div class="mt-8 flex justify-center md:justify-start space-x-4">
+                    <a href="https://wa.me/+50688917868" target="_blank" class="bg-green-500 text-white py-3 px-6 rounded-lg font-bold flex items-center space-x-2 hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="mailto:luis23_perez@hotmail.com" class="bg-gray-700 text-white py-3 px-6 rounded-lg font-bold flex items-center space-x-2 hover:bg-gray-600 transition-all duration-300 transform hover:scale-105">
+                        <i class="far fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center reveal">
+                <img src="JV-10.jpg" alt="Foto profesional del abogado Luis Pérez" class="rounded-lg shadow-2xl border-4 border-brand-gold h-[880px] max-w-[980px] w-auto">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ABOUT ME SECTION -->
+        <section id="sobre-mi" class="bg-white py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2 reveal">
+                        <h2 class="text-4xl font-bold text-brand-blue mb-4">Sobre Mí</h2>
+                        <p class="mb-4 text-gray-600">
+                            Soy Luis Pérez Alvarado, un abogado apasionado por la justicia y comprometido con la defensa de los derechos de mis clientes. Mi trayectoria profesional se ha forjado sobre una base de estudio constante y una práctica dedicada, siempre buscando la solución más efectiva y humana para cada caso.
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+                            <div class="text-center p-4">
+                                <i class="fas fa-handshake text-brand-gold text-4xl mb-3"></i>
+                                <h3 class="font-bold text-lg text-brand-blue">Compromiso</h3>
+                                <p class="text-sm text-gray-500">Dedicación total en cada etapa del proceso legal.</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <i class="fas fa-gavel text-brand-gold text-4xl mb-3"></i>
+                                <h3 class="font-bold text-lg text-brand-blue">Ética</h3>
+                                <p class="text-sm text-gray-500">Actuación transparente y honesta, guiada por principios sólidos.</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <i class="fas fa-users text-brand-gold text-4xl mb-3"></i>
+                                <h3 class="font-bold text-lg text-brand-blue">Cercanía</h3>
+                                <p class="text-sm text-gray-500">Trato directo y personalizado para entender tus necesidades.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 flex justify-center reveal">
+                        <div class="relative">
+                            <img src="JV-13.jpg" alt="Luis Pérez en su oficina" class="rounded-lg shadow-xl transform md:rotate-3 transition-transform duration-500 hover:rotate-0 h-[680px] max-w-[980px] w-auto">
+                            <div class="absolute -bottom-6 -right-6 bg-brand-blue text-white p-6 rounded-lg shadow-2xl max-w-xs">
+                                <p class="text-lg italic">"La mejor defensa es un derecho bien protegido."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- UPDATED LEGAL SERVICES SECTION -->
+        <section id="servicios" class="bg-brand-gray py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 reveal">
+                    <h2 class="text-4xl font-bold text-brand-blue">Áreas de Práctica</h2>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">Ofrezco soluciones legales especializadas para personas y empresas, garantizando una asesoría completa y estratégica.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Service Card 1: Derecho Notarial -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col transform hover:-translate-y-2 transition-transform duration-300 reveal">
+                        <div class="text-center mb-6">
+                            <i class="fas fa-file-signature text-brand-gold text-5xl"></i>
+                            <h3 class="text-2xl font-bold text-brand-blue mt-4">Derecho Notarial</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 text-left flex-grow">
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Traspasos</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Matrimonios</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Divorcios</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Declaraciones Juradas</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Constitución de Sociedades</li>
+                        </ul>
+                    </div>
+                    <!-- Service Card 2: Asesoría Legal -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col transform hover:-translate-y-2 transition-transform duration-300 reveal">
+                        <div class="text-center mb-6">
+                            <i class="fas fa-balance-scale text-brand-gold text-5xl"></i>
+                            <h3 class="text-2xl font-bold text-brand-blue mt-4">Asesoría Legal</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 text-left flex-grow">
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Estrategias Legales</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Protección Patrimonial</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Derecho Laboral</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Derecho Tributario</li>
+                        </ul>
+                    </div>
+                    <!-- Service Card 3: Asesoría Empresarial -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col transform hover:-translate-y-2 transition-transform duration-300 reveal">
+                        <div class="text-center mb-6">
+                            <i class="fas fa-briefcase text-brand-gold text-5xl"></i>
+                            <h3 class="text-2xl font-bold text-brand-blue mt-4">Asesoría Empresarial</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 text-left flex-grow">
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Análisis de Riesgos</li>
+                            <li class="flex items-center"><i class="fas fa-check text-brand-gold mr-3"></i>Estrategia Corporativa</li>
+                             <li class="flex items-center text-transparent"><i class="fas fa-check mr-3"></i>Placeholder</li> <!-- To align vertically -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonios" class="bg-white py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 reveal">
+                    <h2 class="text-4xl font-bold text-brand-blue">Testimonios de Clientes</h2>
+                    <p class="text-gray-600 mt-2">La satisfacción de nuestros clientes es nuestra mejor carta de presentación.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Testimonial Card -->
+                    <div class="bg-brand-gray p-8 rounded-lg reveal">
+                        <div class="flex items-center mb-4">
+                            <img src="https://placehold.co/50x50/cccccc/333333?text=C" class="w-12 h-12 rounded-full mr-4" alt="Cliente satisfecho">
+                            <div>
+                                <h4 class="font-bold text-brand-blue">Carlos M.</h4>
+                                <div class="text-brand-gold">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic">"El Lic. Pérez me guió durante un proceso complicado con una profesionalidad y claridad excepcionales. Sentí un gran respaldo en todo momento."</p>
+                    </div>
+                    <!-- Testimonial Card -->
+                    <div class="bg-brand-gray p-8 rounded-lg reveal">
+                        <div class="flex items-center mb-4">
+                            <img src="https://placehold.co/50x50/cccccc/333333?text=A" class="w-12 h-12 rounded-full mr-4" alt="Cliente satisfecho">
+                            <div>
+                                <h4 class="font-bold text-brand-blue">Ana Rojas</h4>
+                                <div class="text-brand-gold">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic">"Su asesoría en derecho laboral fue clave para mi empresa. Resolvió todas nuestras dudas y nos ayudó a prevenir conflictos."</p>
+                    </div>
+                    <!-- Testimonial Card -->
+                    <div class="bg-brand-gray p-8 rounded-lg reveal">
+                        <div class="flex items-center mb-4">
+                             <img src="https://placehold.co/50x50/cccccc/333333?text=J" class="w-12 h-12 rounded-full mr-4" alt="Cliente satisfecho">
+                            <div>
+                                <h4 class="font-bold text-brand-blue">Javier Solano</h4>
+                                <div class="text-brand-gold">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic">"Excelente servicio notarial. Todo fue rápido, eficiente y muy claro. Lo recomiendo sin dudarlo."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contacto" class="bg-slate-900 text-white py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 reveal">
+                    <h2 class="text-4xl font-bold text-white">Contáctame</h2>
+                    <p class="text-gray-300 mt-2">¿Listo para dar el primer paso? Estoy aquí para escucharte.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-12">
+                    
+                    <!-- Contact Info & Map -->
+                    <div class="md:w-1/2 reveal">
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <i class="fas fa-map-marker-alt text-brand-gold text-2xl mt-1"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Dirección</h4>
+                                    <p class="text-gray-400">San Pedro Montes De Oca</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <i class="fas fa-clock text-brand-gold text-2xl mt-1"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Horario</h4>
+                                    <p class="text-gray-400">Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="flex space-x-4 mt-6">
+                                <a href="https://wa.me/+50688917868" class="flex-1 text-center bg-green-500 text-white py-3 px-6 rounded-lg font-bold flex items-center justify-center space-x-2 hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+                                <a href="tel:88917868" class="flex-1 text-center bg-blue-500 text-white py-3 px-6 rounded-lg font-bold flex items-center justify-center space-x-2 hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Llamar</span>
+                                </a>
+                            </div>
+                        </div>
+                         <!-- Embedded Map -->
+                        <div class="mt-8 rounded-lg overflow-hidden shadow-2xl border-2 border-brand-gold">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15719.16013217436!2d-84.0831835!3d9.9325984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e342c55e1359%3A0x35437198327383c3!2sSan%20Jos%C3%A9%2C%20Costa%20Rica!5e0!3m2!1sen!2sus!4v1678886543210!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-gray-400 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-2xl font-bold text-white mb-2">Tu tranquilidad legal empieza <span class="text-brand-gold">aquí.</span></h3>
+            <div class="flex justify-center space-x-6 my-6">
+                <a href="#" class="text-2xl hover:text-brand-gold transition-colors duration-300"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-2xl hover:text-brand-gold transition-colors duration-300"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="text-2xl hover:text-brand-gold transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-sm">&copy; 2025 Luis Pérez Alvarado Abogado. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const revealElements = document.querySelectorAll('.reveal');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1 // Trigger when 10% of the element is visible
+            });
+
+            revealElements.forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
